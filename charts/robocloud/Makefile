@@ -1,6 +1,6 @@
 CHART_REPO := http://jenkins-x-chartmuseum:8080
 CURRENT=$(pwd)
-NAME := robocloud_APP_NAME
+NAME := robocloud
 OS := $(shell uname)
 RELEASE_VERSION := $(shell cat ../../VERSION)
 
